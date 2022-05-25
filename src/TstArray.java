@@ -1,0 +1,22 @@
+
+public class TstArray {
+
+	public static void main(String[] args) {
+
+		double gpa[]= {2.2 , 3.8 , 4.0 , 3.6 ,1.7 ,2.8};
+		int countSuper=0;//number of students whose GPA>=3.5
+	
+		for(int count=0;count<6;count++)
+		{
+			if(gpa[count]>=3.5)
+			{
+				System.out.print("\nYou are super!");
+				countSuper++;
+			}
+			
+		}
+		
+		System.out.print("\nNumber of super students is: "+countSuper);
+	}
+
+}
